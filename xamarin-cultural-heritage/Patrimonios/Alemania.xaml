@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Alemania">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Button Text ="Abadía y Altenmüscher de Lorsch" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Abadia"/>
+        <Button Text ="Catedral de Spira" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Spira"/>
+        <Button Text ="Ciudad de Bamberg" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Bamberg"/>
+        <Button Text ="Fortaleza de Wartburgo" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Wartburgo"/>
+        <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.VillaRomanaCasale">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="VillaRomanaCasale.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Villa Romana de Casale" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Centros de las vastas haciendas en las que se basaba la economía rural, las villas eran el símbolo por excelencia de la explotación agraria en el Imperio Romano de Occidente. Uno de los ejemplares más suntuosos de estas edificaciones es la villa de Casale (Sicilia), que ha conservado su configuración del siglo IV. Por su abundancia y calidad, los mosaicos que ornamentan casi todas las habitaciones son los más bellos de todo el orbe romano conservados in situ." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

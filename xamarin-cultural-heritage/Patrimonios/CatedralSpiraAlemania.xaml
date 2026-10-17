@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.CatedralSpiraAlemania">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="CatedralAlemania.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Catedral de Spira" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Fundada por Conrado II en 1030 y remodelada a fines del siglo XI, la Catedral de Spira es una basílica de cuatro torres y dos cúpulas. Es uno de los monumentos románicos más importantes del Sacro Imperio Romano Germánico. Durante tres siglos años fue el lugar de sepultura de los emperadores alemanes." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

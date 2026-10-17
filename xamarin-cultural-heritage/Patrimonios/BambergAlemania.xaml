@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.BambergAlemania">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="BambergAlemania.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Ciudad de Bamberg" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="A partir del siglo X, Bamberg constituyó un importante punto de contacto e intercambios con los pueblos eslavos de Europa Oriental, en particular los polacos y los pomeranos. En su época de prosperidad, iniciada en el siglo XII, su arquitectura ejerció una influencia considerable en la del norte de Alemania y Hungría. A finales del siglo XVIII, Bamberg se convirtió en el foco principal de la Ilustración del sur de Alemania. Contó entre sus ciudadanos a filósofos y escritores ilustres como Hegel y Hoffmann." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

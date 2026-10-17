@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.FaroFrancia">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="FaroFrancia.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Faro de Cordouan" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Este faro se yergue en una meseta rocosa plana del Océano Atlántico, situada en el estuario de Gironda, en la región de la Nueva Aquitania. Diseñado por el ingeniero Louis de Foix, fue construido con sillares de piedra caliza, entre finales del siglo XVI y principios del XVII, en un medio natural inhóspito y muy expuesto a intemperies y mareas. A finales del siglo XVIII fue remodelado por el ingeniero Joseph Teulère. Ornamentada con pilastras, columnas, modillones y gárgolas, la torre monumental de Cordouan es una obra maestra de la señalización marítima muy representativa de la historia arquitectónica y tecnológica de los faros. Continuadora de las famosas almenaras de tiempos pasados, esta torre es ilustrativa del arte de construir faros en una época en que las técnicas de navegación se habían modernizado y las almenaras seguían desempeñando aún una importante función de demarcadores territoriales y dispositivos de salvamento. Además, la elevación de la altura de la torre y la modernización de su farola a finales del siglo XVIII son un vivo testimonio de los importantes avances científicos y tecnológicos ya logrados en esa época. La arquitectura del faro de Cordouan se inspiró en la de los faros Antigüedad clásica, así como en el manierismo renacentista y en el peculiar estilo arquitectónico de la Escuela de Puentes y Caminos de Francia." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

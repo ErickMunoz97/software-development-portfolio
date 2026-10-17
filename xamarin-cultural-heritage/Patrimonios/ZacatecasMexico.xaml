@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.ZacatecasMexico">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="ZacatecasMexico.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Centro histórico de Zacatecas" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La ciudad de Zacatecas se fundó en 1546, poco después del descubrimiento de un rico filón de plata, y prosperó gracias a la explotación de este metal precioso, alcanzando su apogeo en los siglos XVI y XVII. Edificada en la escarpada ladera de un estrecho valle, el panorama que ofrece es de una belleza impresionante. Conserva numerosos edificios antiguos, tanto religiosos como civiles, dominados por la silueta de la catedral, construida entre 1730 y 1760. Este templo es una obra arquitectónica excepcional por la armonía de su trazado y la profusa ornamentación barroca de sus fachadas, en las que se combinan los motivos decorativos europeos con los indígenas." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

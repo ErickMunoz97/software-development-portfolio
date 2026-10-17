@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.CastelDelNorteItalia">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="CastelDelNorteItalia.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Castel del Monte" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Edificado en siglo XIII por orden del emperador Federico II, al sur de la península italiana, cerca de Bari, este castillo es un ejemplar de la arquitectura militar medieval único en su género. Su emplazamiento, la perfección de sus formas y la precisión matemática y astronómica de su trazado, son exponentes del deseo que movió a este soberano a hacer de él un símbolo de sus ambiciosos designios. Castel del Monte es una muestra perfecta de la fusión de las formas arquitectónicas de la Antigüedad grecorromana, el Oriente musulmán y el gótico cisterciense del norte de Europa." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

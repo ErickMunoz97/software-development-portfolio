@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.CalzadaIngalterra">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="CalzadaInglaterra.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Calzada y Costa del Gigante" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Al pie de los acantilados que bordean la meseta de Antrim, en Irlanda del Norte, la Calzada del Gigante, formada por 40.000 columnas de basalto, se hunde suavemente en el mar. Su fantástica apariencia ha inspirado leyendas de gigantes que cruzaban el mar por ella hasta las costas de Escocia. Los estudios de que han sido objeto estas formaciones geológicas en los tres últimos siglos han contribuido al desarrollo de las ciencias de la tierra, mostrando que este paisaje espectacular fue originado por la actividad volcánica de la Era Terciaria, hace unos 50 o 60 millones de años." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

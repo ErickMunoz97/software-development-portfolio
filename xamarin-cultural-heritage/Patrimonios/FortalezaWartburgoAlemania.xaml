@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.FortalezaWartburgoAlemania">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="WartburgoAlemania.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Fortaleza de Wartburgo" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La fortaleza de Wartburgo, magníficamente integrada en el paisaje de bosques que la circundan, es en cierto modo el “castillo ideal”. Conserva algunas de sus elementos primigenios, que datan la época feudal. Su perfil actual es producto de las reconstituciones efectuadas en el siglo XIX y evoca lo que debió ser esta fortaleza en tiempos del apogeo del poderío militar de sus señores. Martín Lutero tradujo aquí el Nuevo Testamento del griego al alemán." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

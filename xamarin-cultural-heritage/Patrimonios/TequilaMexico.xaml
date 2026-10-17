@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.TequilaMexico">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="TequilaMexico.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Paisaje de agaves y antiguas instalaciones industriales de Tequila" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Situado entre las estribaciones del volcán de Tequila y el profundo valle del Río Grande, este sitio se extiende por una superficie de 34.658 hectáreas y forma parte de un vasto paisaje de cultivos de agave azul, una planta que se viene usando desde el siglo XVI para elaborar la tequila y, desde hace 2.000 años por lo menos, para producir bebidas fermentadas y confeccionar ropa gracias a sus fibras textiles. Dentro de esta zona paisajística están en actividad las destilerías de tequila, que son un exponente del aumento del consumo internacional de esta bebida alcohólica a lo largo de los siglos XIX y XX. Hoy en día, se considera que el cultivo del agave es un elemento intrínseco de la identidad nacional mexicana. El sitio comprende el paisaje configurado por los campos donde se cultiva el agave azul y los asentamientos urbanos de Tequila, Arenal y Amatitlán, que poseen grandes destilerías donde se fermenta la piña de la planta para fabricar el alcohol. También comprende zonas de vestigios arqueológicos de cultivos en terrazas, viviendas, templos, túmulos ceremoniales y terrenos de juego de pelota que constituyen un testimonio de la cultura de Teuchitlán, predominante en la región de Tequila entre los años 200 y 900 de nuestra era." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Initial_Page">
+    
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Esta es una aplicacion de patrimonios de la humanidad presiona el boton de Iniciar para conocer mas." FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Button Text ="Iniciar" HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+    
+</ContentPage>

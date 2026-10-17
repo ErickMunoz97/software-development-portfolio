@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Inglaterra">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Button Text ="Calzada y Costa del Gigante" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Calzada"/>
+        <Button Text ="Conjunto de cuevas de Gorham" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Cuevas"/>
+        <Button Text ="Observatorio de Jodrell Bank" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Observatorio"/>
+        <Button Text ="Palacio de Blenheim" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Palacio"/>
+        <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+    </StackLayout>
+</ContentPage>

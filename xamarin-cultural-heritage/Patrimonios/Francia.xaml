@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Francia">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Button Text ="Basílica y colina de Vézelay" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Basilica"/>
+        <Button Text ="Canal del Midi" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Midi"/>
+        <Button Text ="Faro de Cordouan" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Faro"/>
+        <Button Text ="Iglesia abacial de Saint-Savin-sur-Gartempe" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Iglesia"/>
+        <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+    </StackLayout>
+</ContentPage>

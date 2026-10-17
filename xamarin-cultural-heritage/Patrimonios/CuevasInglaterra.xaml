@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.CuevasInglaterra">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="CuevasInglaterra.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Conjunto de cuevas de Gorham" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Los abruptos acantilados calcáreos de la cara oriental del peñón de Gibraltar albergan cuatro cuevas, cuyos yacimientos arqueológicos atestiguan la presencia del hombre de Neandertal durante más de 100.000 años. Este testimonio excepcional de la cultura neandertaliense está constituido por grabados rupestres de motivos abstractos, así como por huellas de la caza de aves y animales marinos con fines alimentarios y por indicios del uso ornamental del plumaje de las presas capturadas. Las investigaciones científicas llevadas a cabo en este sitio han aportado una contribución importante al debate sobre el conocimiento del hombre de Neandertal y de la evolución de la especie humana." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

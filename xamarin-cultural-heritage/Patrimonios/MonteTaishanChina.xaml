@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.MonteTaishanChina">
+    <ScrollView HeightRequest="3000">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+      
+            <Image Source="MonteTaishanChina.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Monte Taishan" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Lugar de culto imperial durante dos milenios, este monte sagrado alberga obras maestras de la arquitectura y el arte perfectamente armonizadas con su entorno natural. Sí­mbolo de las civilizaciones y creencias de la antigua China, el Monte Taishan ha sido siempre una fuente de inspiración para los artistas y letrados de este paí­s." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

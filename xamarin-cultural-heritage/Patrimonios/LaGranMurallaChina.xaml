@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.LaGranMurallaChina">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="LaGranMurallaChina.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="La Gran Muralla" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Hacia el año 220 a.C., el primer emperador Qin Shin Huang ordenó reunir los tramos de fortificaciones construidas anteriormente, a fin de crear un sistema de defensa coherente contra las invasiones de los pueblos del Norte. Los trabajos de edificación de la Gran Muralla prosiguieron hasta la dinastí­a de los Ming (1368-1644), dando por resultado la obra de ingenierí­a militar más gigantesca de todos los tiempos. Su gran valor arquitectónico es comparable a su importancia histórica y estratégica." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

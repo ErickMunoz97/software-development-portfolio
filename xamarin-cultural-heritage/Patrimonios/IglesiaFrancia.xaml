@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.IglesiaFrancia">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="IglesiaFrancia.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Iglesia abacial de Saint-Savin-sur-Gartempe" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La iglesia de esta abadía, calificada de “Capilla Sixtina del Arte Románico”, posee un gran número de frescos bellísimos de los siglos XI y XII que se hallan en un admirable estado de conservación." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

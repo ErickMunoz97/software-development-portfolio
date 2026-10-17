@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.MantuaYSabbionetta">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="MantuaYSabbionetta.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Mantua y Sabbionetta" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Situadas al norte de Italia, estas dos ciudades son representativas de dos aspectos del urbanismo del Renacimiento. Mantua constituye un ejemplo de renovación y extensión de una ciudad ya existente, mientras que Sabbionetta, situada a unos 30 kilómetros, es ilustrativa de las teorías renacentistas sobre la planificación de la ciudad ideal. Aunque algunas partes de su tejido urbano son regulares, el trazado irregular de Mantua atestigua las distintas etapas de su crecimiento desde la época del Imperio Romano. Esta ciudad posee numerosos monumentos medievales –entre los que figura una rotonda del siglo XI– y un teatro barroco. En cambio, Sabbionetta, construida en la segunda mitad del siglo XVI por orden de Vespasiano Gonzaga Colonna, se puede definir como una ciudad de un solo periodo con un plano en forma de damero. Ambas ciudades aportan un testimonio excepcional de las realizaciones urbanísticas, arquitectónicas y artísticas del Renacimiento, dictadas por la visión y las ambiciones de la familia gobernante de los Gonzaga. La importancia de los dos sitios estriba en el valor de su arquitectura y en su eminente papel en la difusión de la cultura renacentista. Los ideales de ésta, promovidos por los Gonzaga, han quedado plasmados en la morfología y la arquitectura de ambas ciudades." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

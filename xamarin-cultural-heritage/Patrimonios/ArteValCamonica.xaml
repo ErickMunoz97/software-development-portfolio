@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.ArteValCamonica">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="ArteValCamonica.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Arte rupestre de Val Camónica" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Situado en la planicie de Lombardía, el sitio de Val Camónica alberga uno de los conjuntos más densos de petroglifos prehistóricos descubiertos hasta la fecha. Más de 140.000 figuras y símbolos esculpidos en la roca a lo largo de 8.000 años muestran escenas de faenas agrícolas, navegación, guerra y magia." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

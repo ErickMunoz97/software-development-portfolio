@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CasaDeCambio">
+    <StackLayout>
+        <Label Text="Conversiones" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+        <Label></Label>
+        <Label></Label>
+        
+        <Label Text = "Introduzca cantidad de dinero" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+        <Entry x:Name="dinero" Keyboard="Numeric"></Entry>
+        <Label></Label>
+        <Label></Label>
+        
+        <Button Text="De pesos a dolares" x:Name="Dolares" Clicked="Dolares_Clicked"></Button>
+        <Button Text="De dolares a pesos" x:Name="Pesos" Clicked="Pesos_Clicked"></Button>
+        
+        <Label FontSize="Medium" x:Name="Resultado" HorizontalTextAlignment="Center"></Label>
+        
+    </StackLayout>
+</ContentPage>

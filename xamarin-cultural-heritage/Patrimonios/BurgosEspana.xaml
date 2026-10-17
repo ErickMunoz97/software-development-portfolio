@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.BurgosEspana">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="BurgosEspana.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Catedral de Burgos" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La construcción de la Catedral de Santa María de Burgos comenzó en el siglo XIII, al mismo tiempo que la de las grandes catedrales francesas de la región de París, y finalizó en los siglos XV y XVI. Su espléndida arquitectura y la colección excepcional de obras maestras que alberga –pinturas, sitiales del coro, retablos, tumbas y vidrieras– son un verdadero compendio de la historia del arte gótico." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

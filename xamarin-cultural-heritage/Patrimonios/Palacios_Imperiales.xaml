@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Palacios_Imperiales">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+            
+            <Image Source="Palacios_Imperiales_China.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Palacios imperiales de las dinastías Ming y Qing en Beijing y Shenyang" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Sede del poder supremo durante más de cinco siglos (1416-1911), la Ciudad Prohibida de Beijing posee jardines paisají­sticos y unos 10.000 aposentos con muebles y obras de arte que constituyen un testimonio inestimable de la civilización china en tiempos de las dinastí­as Ming y Qing. El palacio imperial de los Qing en Shenyang está integrado por un conjunto de 114 edificios construidos entre 1625 y 1783. Cuenta con una gran biblioteca y es un testimonio importante de la etapa fundacional de la última dinastí­a reinante en China, antes de que extendiera su dominio hacia el centro del paí­s y desplazarse su capital a Beijing. Con el traslado de la capital, el sitio de Shenyang se convirtió en una residencia anexa del palacio imperial de Pekí­n. La notable arquitectura de sus edificios aporta un testimonio histórico excepcional no sólo sobre la dinastí­a de los Qing, sino también sobre las tradiciones culturales de los manchúes y otros pueblos del norte de China." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

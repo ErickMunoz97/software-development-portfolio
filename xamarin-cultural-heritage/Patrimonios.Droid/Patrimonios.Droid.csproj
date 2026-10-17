@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{15C82D34-7E8B-4A6F-8C17-B2E2A08000A8}</ProjectGuid>
+        <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
+        <RootNamespace>Patrimonios.Droid</RootNamespace>
+        <AssemblyName>Patrimonios.Droid</AssemblyName>
+        <AndroidApplication>True</AndroidApplication>
+        <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+        <AndroidResgenClass>Resource</AndroidResgenClass>
+        <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+        <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+        <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+        <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+        <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+        <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug</OutputPath>
+        <DefineConstants>DEBUG;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AndroidLinkMode>None</AndroidLinkMode>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AndroidManagedSymbols>true</AndroidManagedSymbols>
+        <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Mono.Android" />
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Xml.Linq" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="MainActivity.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\AboutResources.txt" />
+        <None Include="Assets\AboutAssets.txt" />
+        <None Include="Properties\AndroidManifest.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <AndroidResource Include="Resources\Drawable\AragonEspana.jpg" />
+        <AndroidResource Include="Resources\Drawable\ArteValCamonica.jpg" />
+        <AndroidResource Include="Resources\Drawable\BambergAlemania.jpg" />
+        <AndroidResource Include="Resources\Drawable\BasilicaFrancia.jpg" />
+        <AndroidResource Include="Resources\Drawable\BurgosEspana.jpg" />
+        <AndroidResource Include="Resources\Drawable\CalzadaInglaterra.jpg" />
+        <AndroidResource Include="Resources\Drawable\CampecheMexico.jpg" />
+        <AndroidResource Include="Resources\Drawable\CastelDelNorteItalia.jpg" />
+        <AndroidResource Include="Resources\Drawable\CatedralAlemania.jpg" />
+        <AndroidResource Include="Resources\Drawable\CuevasInglaterra.jpg" />
+        <AndroidResource Include="Resources\Drawable\FaroFrancia.jpg" />
+        <AndroidResource Include="Resources\Drawable\GrutasDeMogaoChina.jpg" />
+        <AndroidResource Include="Resources\Drawable\IglesiaFrancia.jpg" />
+        <AndroidResource Include="Resources\Drawable\LaGranMurallaChina.jpg" />
+        <AndroidResource Include="Resources\Drawable\MantuaYSabbionetta.jpg" />
+        <AndroidResource Include="Resources\Drawable\MayaMexico.jpg" />
+        <AndroidResource Include="Resources\Drawable\MedulasEspana.jpg" />
+        <AndroidResource Include="Resources\Drawable\MidiFrancia.jpg" />
+        <AndroidResource Include="Resources\Drawable\MonteTaishanChina.jpg" />
+        <AndroidResource Include="Resources\Drawable\MurallasLugoEspana.jpg" />
+        <AndroidResource Include="Resources\Drawable\ObservatorioInglaterra.jpg" />
+        <AndroidResource Include="Resources\Drawable\PalacioInglaterra.jpg" />
+        <AndroidResource Include="Resources\Drawable\Palacios_Imperiales_China.jpg">
+          <SubType>Designer</SubType>
+        </AndroidResource>
+        <AndroidResource Include="Resources\Drawable\TequilaMexico.jpg" />
+        <AndroidResource Include="Resources\Drawable\VillaRomanaCasale.jpg" />
+        <AndroidResource Include="Resources\Drawable\WartburgoAlemania.jpg" />
+        <AndroidResource Include="Resources\Drawable\xAlemania.jpg" />
+        <AndroidResource Include="Resources\Drawable\ZacatecasMexico.jpg" />
+        <AndroidResource Include="Resources\layout\Tabbar.axml" />
+        <AndroidResource Include="Resources\layout\Toolbar.axml" />
+        <AndroidResource Include="Resources\values\styles.xml" />
+        <AndroidResource Include="Resources\values\colors.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Patrimonios\Patrimonios.csproj">
+            <Project>{78BB6A78-9BD6-4ED7-9798-9EF5FAB887D6}</Project>
+            <Name>Patrimonios</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

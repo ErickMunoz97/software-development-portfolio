@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.CampecheMexico">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="CampecheMexico.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Ciudad histórica fortificada de Campeche" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Campeche es una ciudad portuaria caribeña de tiempos de la colonización española. Su centro histórico ha conservado las murallas y el sistema de fortificaciones creado para protegerla contra los ataques navales." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

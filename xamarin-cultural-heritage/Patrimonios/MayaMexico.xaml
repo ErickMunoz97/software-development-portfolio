@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.MayaMexico">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="MayaMexico.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Antigua Ciudad Maya y bosques tropicales protegidos de Calakmul, Campeche" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Situado en el sector central y meridional de la Península de Yucatán, al sur de México, el sitio incluye los vestigios de la importante ciudad maya de Calakmul, situada en los más hondo de la selva tropical de las Tierras Bajas mexicanas. La ciudad desempeñó un papel de primer plano en la historia de la región durante más de doce siglos. Sus imponentes estructuras y su trazado global característico se hallan en un estado de conservación admirable y ofrecen una vívida imagen de lo que era la vida en una antigua capital maya. Calakmul alberga también un importante santuario de biodiversidad de Mesoamérica, que por su tamaño es el tercer mayor hotspot del mundo y conjuga todos los ecosistemas tropicales y subtropicales existentes desde el centro de México hasta el Canal de Panamá." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

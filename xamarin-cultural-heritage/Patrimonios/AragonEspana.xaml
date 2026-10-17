@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.AragonEspana">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="AragonEspana.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Arquitectura mudéjar de Aragón" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La aparición del arte mudéjar en Aragón, hacia el siglo XII, se debió a las peculiares condiciones políticas, sociales y culturales de la España de la Reconquista. Influenciado en parte por el arte islámico, el mudéjar también muestra huellas de las tendencias coetáneas de los estilos arquitectónicos europeos, en particular el gótico. Los monumentos mudéjares –cuya construcción se prolongó hasta principios del siglo XVII– se caracterizan por una utilización sumamente refinada e ingeniosa del ladrillo y la cerámica vidriada, sobre todo en los campanarios." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

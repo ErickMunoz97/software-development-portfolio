@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.España">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Button Text ="Arquitectura mudéjar de Aragón" HorizontalOptions="Center" VerticalOptions="Center"
+                        Clicked="Button_Aragon"/>
+                <Button Text ="Catedral de Burgos" HorizontalOptions="Center" VerticalOptions="Center"
+                        Clicked="Button_Burgos"/>
+                <Button Text ="Las Médulas" HorizontalOptions="Center" VerticalOptions="Center"
+                        Clicked="Button_Medulas"/>
+                <Button Text ="Muralla romana de Lugo" HorizontalOptions="Center" VerticalOptions="Center"
+                        Clicked="Button_MurallaLugo"/>
+                <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+        </StackLayout>
+</ContentPage>

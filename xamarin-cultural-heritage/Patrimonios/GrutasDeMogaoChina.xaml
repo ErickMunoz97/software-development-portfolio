@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.GrutasDeMogaoChina">
+    <ScrollView HeightRequest="3000">
+            <StackLayout>
+            
+                <Image Source="GrutasDeMogaoChina.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+                <Label Text="Grutas de Mogao" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="Las 429 celdas y santuarios rupestres de Mogao se hallan en un antiguo lugar estratégico de la Ruta de la Seda, que fue la encrucijada de un comercio próspero y el punto de intersección de diversas corrientes religiosas, culturales e intelectuales. Las grutas son famosas por sus estatuas y pinturas murales representativas de un milenio de arte búdico." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Button Text="Volver" Clicked="Button_Volver"/>
+            </StackLayout>
+        </ScrollView>
+</ContentPage>

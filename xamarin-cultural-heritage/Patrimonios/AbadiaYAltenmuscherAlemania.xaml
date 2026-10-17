@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.AbadiaYAltenmuscherAlemania">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="xAlemania.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Abadía y Altenmüscher de Lorsch" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="El conjunto formado por la abadía y su monumental entrada, la famosa “Torhalle”, es uno de los raros testimonios arquitectónicos de la época carolingia. Sus esculturas y pinturas, que datan también de este período, se hallan en un excelente estado de conservación." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

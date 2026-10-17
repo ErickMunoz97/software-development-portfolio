@@ -1,0 +1,134 @@
+import java.io.*;
+import java.lang.*;
+import java.text.DecimalFormat;
+import java.util.*;
+
+
+class Coordenada {
+
+	private double x;
+	private double y;
+
+	// Setter para darle el valor a cada variable del objeto.
+	public Coordenada(double x, double y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	// Getters para almacenar los datos de X y Y.
+	public double getX() {
+		return x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	
+}
+
+class ReadFile {
+	// Esta clase hace una lista estatica para extraer las coordenadas de un archivo
+	// en especifico y poder llamarla desde otras clases.
+	public static List<Coordenada> ExtraerCoordenadas(String filePath) throws FileNotFoundException {
+
+		// Esta lista se utiliza para almacenar las coordenadas como un solo objeto
+		// Coordenada.
+		List<Coordenada> coordenadas = new ArrayList<>();
+		File file = new File(filePath);
+
+		// con un scanner tomamos los datos del archivo.
+		if(file.length() !=0){
+			try (Scanner scanner = new Scanner(file)) {
+			while (scanner.hasNextLine()) {
+				// El String llamado line es para almacenar los datos enteros de una linea del
+				// archivo.
+				String line = scanner.nextLine();
+				// solo nos interesan los dos numeros de las coordenadas entonces quitamos los
+				// espacios con un split.
+				String partes[] = line.split(" ");
+				// Si los valores del archivo son consistentes con los de requerimientos
+				// entonces
+				// Se toman y se almacenan en nuestro objeto Coordenada, y el objeto en nuestra
+				// lista Coordenadas.
+				if (partes.length == 2) {
+					try{
+					double x = Double.parseDouble(partes[0]);
+					double y = Double.parseDouble(partes[1]);
+					coordenadas.add(new Coordenada(x, y));
+					} catch (NumberFormatException e){
+						System.err.println(e.getStackTrace());
+					}
+					// Por si el usuario nos dio una entrada que no es consistente con los
+					// requerimientos
+				} else {
+					System.out.println("Se inserto un valor erroneo");
+				}
+			}
+		}
+
+		
+	} else{
+		System.out.println("El archivo " + file.getName() + " esta vacio");
+	}	
+		return coordenadas;
+	}
+}
+
+class DistanciaEucladiana {
+	public static double calcularDistancia(Coordenada c1, Coordenada c2) {
+		DecimalFormat df = new DecimalFormat("#.###");
+		// toma dos coordenadas para calcular la distancia.
+		double valorX = Math.abs(c2.getX() - c1.getX());
+		double valorY = Math.abs(c2.getY() - c1.getY());
+		double distancia = Math.hypot(valorX, valorY);
+		// Regresa los valores con solo 3 decimales.
+		
+		return Double.parseDouble(df.format(distancia));
+	}
+
+}
+
+public class Program1{
+	public static void main(String[] args) {
+		String directoryPath ;
+		System.out.println("Ingrese la ruta de su carpeta");
+		Scanner scan = new Scanner(System.in);
+		directoryPath = scan.nextLine();
+		File directory = new File(directoryPath);
+		// crea una lista con todos los archivos.
+		File[] fileslist = directory.listFiles();
+
+		if (fileslist.length != 0) {
+			for (File file : fileslist) {
+				// revisa que el archivo sea un archivo de tipo File
+				// revisa que sea archivo de tipo .txt
+				if (file.isFile() && file.getName().endsWith(".txt")) {
+					System.out.println("Calculando las distancias entre los puntos en el archivo " + file.getName() + ".");
+
+					
+						// llama a la lista estatica y le da la ubicacion del archivo.
+						try{
+						List<Coordenada> coordenadas = ReadFile.ExtraerCoordenadas(file.getPath());
+						// los ciclos anidados comparan todas las coordenadas sin repetir.
+						int size = coordenadas.size();
+						for (int a = 0; a < size - 1; a++) {
+							for (int b = a + 1; b <= size - 1; b++) {
+								Coordenada c1 = coordenadas.get(a);
+								Coordenada c2 = coordenadas.get(b);
+								double distancia = DistanciaEucladiana.calcularDistancia(c1, c2);
+								DecimalFormat df = new DecimalFormat("#");
+								System.out.println("La distancia entre (" + df.format(c1.getX()) + ", " + df.format(c1.getY()) + ") y ("+ df.format(c2.getX()) + ", " + df.format(c2.getY()) + ") es: " + distancia);
+							}
+						}
+					
+						} catch (FileNotFoundException e){
+							System.err.println("No se encontro el archivo: " + file.getName() );
+				}
+			}
+			}
+		} else {
+			System.out.println("La carpeta esta vacia");
+		}
+	}
+}

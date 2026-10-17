@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.MurallaLugoEspana">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="MurallasLugoEspana.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Muralla romana de Lugo" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="La muralla de Lugo fue construida a finales de siglo II para defender la ciudad romana de Lucus. Su perímetro se ha conservado intacto en su totalidad y constituye el más bello arquetipo de fortificación romana tardía de toda Europa Occidental." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

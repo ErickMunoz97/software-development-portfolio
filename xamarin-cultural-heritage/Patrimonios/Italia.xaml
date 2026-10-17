@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.Italia">
+    
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center"> 
+        <Button Text ="Castel Del Monte" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_CastelDelMonte"/>
+        <Button Text ="Arte rupestre de Val Cámonica" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_ValCamonica"/>
+        <Button Text ="Mantua y Sabbionetta" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_MantuaYSabbionetta"/>
+        <Button Text ="Villa Romana de Casale" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_VillaRomana"/>
+        <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+    </StackLayout>
+    
+</ContentPage>

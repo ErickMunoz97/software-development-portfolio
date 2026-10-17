@@ -1,0 +1,34 @@
+# IDE and build output
+.vs/
+.idea/
+.vscode/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/packages/
+*.user
+*.suo
+*.cache
+*.tmp
+*.log
+*.pdb
+*.dll
+*.exe
+*.apk
+*.aab
+*.class
+*.jar
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+# local databases and secrets
+*.db
+*.sqlite
+.env
+.env.*
+**/appsettings.Development.json
+# generated analysis output
+**/results.csv
+**/Complejidad.csv

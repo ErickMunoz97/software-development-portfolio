@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.MidiFrancia">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="MidiFrancia.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Canal del Midi" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Construida entre 1667 y 1694, esta red de 360 km de canales navegables enlaza el Mediterráneo y el Atlántico gracias a 328 obras de ingeniería diversas: esclusas, acueductos, puentes, túneles, etc. Es una de las realizaciones de la ingeniería civil más extraordinarias de la era moderna, precursora de la Revolución Industrial. El interés por la estética arquitectónica y paisajística que animó al autor del proyecto, Pierre-Paul Riquet, hizo de este canal una proeza técnica y una auténtica obra de arte." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

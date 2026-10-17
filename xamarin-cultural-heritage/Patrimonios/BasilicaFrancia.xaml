@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.BasilicaFrancia">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="BasilicaFrancia.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Basílica y colina de Vézelay" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Poco después de su fundación en el siglo XI, el monasterio benedictino de Vézelay adquirió las reliquias de Santa María Magdalena y se convirtió en un importante lugar de peregrinación. Aquí fue donde predicó San Bernardo la segunda cruzada (1146), y también donde se encontraron Ricardo Corazón de León y el rey Felipe Augusto de Francia para emprender la tercera (1190). Con su pórtico y capiteles magníficamente esculpidos, la basílica de Santa María Magdalena, iglesia monástica del siglo XII, es una obra maestra del arte y la arquitectura románicas borgoñonas" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

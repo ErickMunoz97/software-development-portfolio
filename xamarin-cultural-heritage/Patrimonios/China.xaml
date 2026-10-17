@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.China">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center"> 
+            <Button Text ="Palacios Imperiales de las dinastías Ming y Qing en Beijing y Shenyang" HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="Button_Palacios"/>
+            <Button Text ="Grutas de Mogao" HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="Button_Grutas"/>
+            <Button Text ="Monte Taishan" HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="Button_MonteTaishan"/>
+            <Button Text ="La Gran Muralla" HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="Button_GranMuralla"/>
+            <Button Text="Volver" HorizontalOptions="End" VerticalOptions="End" Clicked="Button_Volver"/>
+        </StackLayout>
+    
+</ContentPage>

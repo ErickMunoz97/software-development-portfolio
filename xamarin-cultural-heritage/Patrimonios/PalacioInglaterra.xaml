@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.PalacioInglaterra">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="PalacioInglaterra.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Palacio de Blenheim" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Cerca de Oxford, en medio de un parque romántico creado por el célebre paisajista Capability Brown, se alza el Palacio Blenheim donado por la nación inglesa a John Churchill, primer duque de Marlborough, en reconocimiento por la victoria que consiguió sobre las tropas francesas y bávaras en 1704. Construido entre 1705 y 1722, este palacio  caracterizado por su estilo ecléctico y un retorno a fuentes de inspiración estéticas de raigambre nacional, es un ejemplar perfecto de residencia principesca del siglo XVIII." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

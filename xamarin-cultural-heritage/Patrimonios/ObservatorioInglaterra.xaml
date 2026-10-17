@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patrimonios.ObservatorioInglaterra">
+    <ScrollView HeightRequest="3000">
+        <StackLayout>
+
+            <Image Source="ObservatorioInglaterra.jpg" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+            <Label Text="Observatorio de Jodrell Bank" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Al noroeste de Inglaterra, en una zona rural exenta de interferencias sonoras, se halla el observatorio radioastronómico de Jodrell Bank, uno de los primeros del mundo. En 1945, año de la entrada en funcionamiento de este observatorio, en el sitio de su instalación se efectuaban investigaciones sobre las radiaciones cósmicas detectadas mediante un sistema de radar. Este centro científico, que aún prosigue sus actividades, posee varios radiotelescopios y una serie edificios funcionales habilitados para hangares técnicos, salas de control, etc. La labor de investigación llevada a cabo en Jodrell Bank ha tenido repercusiones importantes en ámbitos como el estudio de la luna y los meteoritos, el descubrimiento de los cuásares, la óptica cuántica y el seguimiento de las naves espaciales. Esta instalación tecnológica excepcional es ilustrativa del periodo de transición (1940-1960) de la astronomía óptica tradicional a la radioastronomía, durante el cual nuestros conocimientos del universo experimentaron profundas modificaciones." FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Button Text="Volver" Clicked="Button_Volver"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
