@@ -1,4 +1,4 @@
-# Erick Muñoz — Software Development Portfolio
+# Erick Arias Muñoz — Software Development Portfolio
 
 A curated selection of earlier student projects in **Java, C#, Xamarin.Forms, XAML, WPF, and SQL**. The apps were created during programming coursework; the versions here were organized, documented, and given targeted maintenance fixes in October 2026. Some maintenance was assisted by ChatGPT, and the original source archive has been retained separately.
 
